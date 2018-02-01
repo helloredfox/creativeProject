@@ -1,0 +1,28 @@
+.navbarImage {
+	height: 30px;
+}
+.videogameBrands {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.videogameBrands img {
+	order: 1;
+	height: 25px;
+	opacity: .5;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.banner {
+	padding: 0;
+}
+.banner img{
+	padding: 0;
+	max-width: 100%;
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
