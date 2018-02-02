@@ -1,3 +1,9 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Navbard */
 .navbarImage {
 	height: 30px;
 }
@@ -14,15 +20,43 @@
 	margin-left: 25px;
 	margin-top: 20px;
 }
-.banner {
-	padding: 0;
-}
+
 .banner img{
-	padding: 0;
 	max-width: 100%;
 	width: 100%;
 }
-body {
-	margin: 0;
-	padding: 0;
+
+/*  CARDS   */
+.cards div.card {
+width: 100%; box-shadow: 1px 1px 20px;
+margin-top: 30px;
+height: 280px;
 }
+.cards {
+	margin-bottom: 30px;
+}
+/* Card icons */
+.fa-calculator {
+	margin-top: 20px;
+	font-size: 80px;
+	margin-bottom: 5px;
+}
+.fa-money-bill-alt {
+	font-size: 80px;
+}
+.fa-users {
+	font-size: 80px;
+}
+/* Card buttons */
+.aboutUsButton {
+	margin-top: 28px;
+}
+.calcCard p{
+	margin-top: -20px;
+}
+
+.rentButton {
+	margin-top: 5px;
+}
+
+

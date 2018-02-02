@@ -12,6 +12,7 @@
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	</head>
 	<body>
 		<!-- NAVBAR -->
@@ -19,29 +20,31 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="index.html"><img class="navbarImage"src="/images/favicon.png"/></a>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <a class="navbar-brand" href="index.html"><img class="navbarImage"src="/images/brand.png"/></a>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="about.html">About us<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="about.html">ABOUT US<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="shouldyourentvideogames.html">Should you rent videogames?</a>
+        <a class="nav-link" href="shouldyourentvideogames.html">SHOULD YOU RENT VIDEOGAMES?</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="calculator.html">Calculator</a>
+        <a class="nav-link" href="calculator.html">CALCULATOR</a>
       </li>
-      
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
       </li>
     </ul>
   </div>
 </nav>
 <!-- END NAVBAR -->
 <div class="banner">
-	<img src="http://www.volt.com/uploadedImages/Blog/how_to_get_a_job_as_a_video_game_tester_banner.jpg" />
+	<img src="/images/banner1.png" />
 </div>
 
-<div class="videogameBrands">
+<!--  Video game brands  -->
+<!-- <div class="videogameBrands">
       <img _ngcontent-c33="" src="https://gamefly.gameflycdn.com/assets/images/splash/icon-platform-ps4.png">
       <img _ngcontent-c33="" src="https://gamefly.gameflycdn.com/assets/images/splash/icon-platform-xone.png">
        <img _ngcontent-c33="" src="https://gamefly.gameflycdn.com/assets/images/splash/icon-platform-switch.png">
@@ -53,9 +56,55 @@
        <img _ngcontent-c33="" src="https://gamefly.gameflycdn.com/assets/images/splash/icon-platform-bluray.png">
       <img _ngcontent-c33="" src="https://gamefly.gameflycdn.com/assets/images/splash/icon-platform-dvd.png">
    </div>
+ -->
 
+<div class="container cards">
+	<div class="row">
+		<div class="col-xs-12 col-lg-4 text-center">
+			<div class="card aboutUs">
+				  <div class="card-block">
+				    <i class="fas fa-users"></i>
+				    <h4>About us</h4>
+				    <p class="card-text">Learn about why we created this site, and how to best use it!</p>
+				    <a href="/shouldyourentvideogames.html" class="btn btn-primary aboutUsButton">Read now</a>
+		 		 </div>
+			</div>
+		</div>	
+		<div class="col-xs-12 col-lg-4 text-center">
+
+			<div class="card">
+				  <div class="card-block">
+				    <i class="far fa-money-bill-alt icon"></i>
+				    <h4>Rent or buy?</h4>
+				    <p class="card-text">Our best thoughts and effort to guide you to the most affordable way to enjoy videogames. </p>
+				    <a href="/shouldyourentvideogames.html" class="btn btn-primary rentButton">Read now</a>
+		 		 </div>
+			</div>
+		</div>	
+		<div class="col-xs-12 col-lg-4 text-center">
+			<div class="card calcCard">
+				 <i class="fas fa-calculator icon"></i>
+				 <h4>Calculator</h4>
+				  <div class="card-block">
+				    <p class="card-text">Our special calculator to show you the cheapest way to enjoy all the videogames you want!</p>
+				    <a href="/shouldyourentvideogames.html" class="btn btn-primary">Calculator</a>
+				    
+		 		 </div>
+			</div>
+		</div>	
+	</div>
+</div>
 
 		<div class="container-fluid">
 		</div>
 	</body>
 </html>
+
+
+
+
+
+
+
+
+
