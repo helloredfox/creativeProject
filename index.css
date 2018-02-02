@@ -2,8 +2,13 @@ body {
 	margin: 0;
 	padding: 0;
 }
+.pageBackground {
 
-/* Navbard */
+}
+h2 {
+	color: #006FBF !important;
+}
+/* Navbar */
 .navbarImage {
 	height: 30px;
 }
@@ -43,9 +48,13 @@ height: 280px;
 }
 .fa-money-bill-alt {
 	font-size: 80px;
+	color: #007849;
 }
 .fa-users {
 	font-size: 80px;
+	color: #f7b733; 
+
+
 }
 /* Card buttons */
 .aboutUsButton {
@@ -58,5 +67,28 @@ height: 280px;
 .rentButton {
 	margin-top: 5px;
 }
+ /* Footer */
+ .footer {
+ 	padding-top: 70px;
+ 	padding-bottom: 60px;
+ 	background-color: #ccc !important;
+ 	height: 100%;
+ }
+ .indexBody {
+
+}
+.sendButton {
+	cursor: pointer;
+background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+font-weight: 300 !important;
+width: 200px;
+border: none !important;
+}
+
+
+
 
 
